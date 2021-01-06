@@ -1,7 +1,7 @@
 import { Navbar } from 'react-bootstrap'
 import { Nav} from 'react-bootstrap'
 
-function Barra () {
+const Barra = () => {
     return <>
       <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">Maxi e-commerce</Navbar.Brand>
