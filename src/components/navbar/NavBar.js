@@ -1,6 +1,7 @@
-import { Navbar } from 'react-bootstrap';
-import { Nav} from 'react-bootstrap';
-function Barra() {
+import { Navbar } from 'react-bootstrap'
+import { Nav} from 'react-bootstrap'
+
+function Barra () {
     return <>
       <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">Maxi e-commerce</Navbar.Brand>
@@ -15,4 +16,4 @@ function Barra() {
     </>
   }
   
-  export default Barra;
+  export default Barra
