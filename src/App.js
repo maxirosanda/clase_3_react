@@ -1,9 +1,10 @@
 import './App.css'
-import Barra from './components/navbar/NavBar'
+import NavBar from './components/navbar/NavBar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 function App() {
   return <>
- <Barra />
-<h2>Ofertas de la Semana</h2>
+ <NavBar />
+<ItemListContainer texto='hola buenas Noches'></ItemListContainer>
 </>
 }
 export default App

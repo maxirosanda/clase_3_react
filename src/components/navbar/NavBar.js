@@ -1,7 +1,7 @@
 import { Navbar } from 'react-bootstrap'
 import { Nav} from 'react-bootstrap'
-
-const Barra = () => {
+import CardWidget from '../cardwidget/CardWidget'
+const NavBar = () => {
     return <>
       <Navbar bg="light" expand="lg">
   <Navbar.Brand href="#home">Maxi e-commerce</Navbar.Brand>
@@ -12,8 +12,11 @@ const Barra = () => {
       <Nav.Link href="#link">Link</Nav.Link>
     </Nav>
   </Navbar.Collapse>
+  <CardWidget>
+
+  </CardWidget>
 </Navbar>
     </>
   }
   
-  export default Barra
+  export default NavBar
